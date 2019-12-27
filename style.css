@@ -1,0 +1,42 @@
+body {
+    width: 970px;
+    margin: 0 auto;
+    }
+
+nav{
+    width: 23%;
+    display: inline-block;
+    vertical-align: top;
+}
+nav ul li{
+    margin: 15px 0;
+}
+nav ul li a{
+    text-decoration: none;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    color: #000000;
+}
+.text{
+    width: 60%;
+    display: inline-block;
+    border-left: 1px solid black;
+    padding: 10px 15px;
+}
+.text img{
+    margin: 20px 0;
+}
+nav li a:hover{
+    color: grey;
+}
+nav li.active{
+    color: #e60000;
+    font-weight: bold;
+}
+table{
+    border-spacing: 1px;
+}
+table td, table th{
+    border: 1px solid #000000;
+    padding: 5px 10px;
+}
